@@ -2,7 +2,7 @@
 provider "google" {
  credentials = "${file("CREDENTIALS_FILE.json")}"
  project     = "playground-s-11-7c616e"
- region      = "us-east1"
+ region      = "us-east2"
 }
 
 
